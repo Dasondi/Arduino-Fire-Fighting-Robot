@@ -1,0 +1,27 @@
+# Arduino IDE temporary files
+*.tmp
+*.bak
+*.preproc
+
+# Compiled files and binaries
+*.o
+*.a
+*.elf
+*.hex
+*.bin
+*.eep
+*.lss
+*.sym
+*.map
+
+# Dependency files
+*.d
+
+# Build folder
+build.*
+/build/
+
+# Miscellaneous
+*~
+.DS_Store
+Thumbs.db
