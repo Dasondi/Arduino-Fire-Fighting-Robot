@@ -33,10 +33,5 @@ A clear circuit diagram is essential for others to replicate your project. You c
 4.  **Upload the code** to your Arduino board using the Arduino IDE.
 5.  Power up the robot and test its functionality.
 
-## Known Issues & Potential Improvements
-* **Pin Conflict:** The current code uses pins 0 and 1 for `SoftwareSerial`, which conflicts with the Arduino's main USB communication. The SIM800 module should be moved to other digital pins (e.g., 2 and 3) for stability.
-* **Blocking Code:** The use of `delay()` and `for` loops for the servo sweep makes the robot unresponsive during actions. This could be improved by using the standard `Servo.h` library and a state machine approach with `millis()`.
-* **Excessive SMS:** The robot sends an SMS every time the fire condition is met, which could result in spam. The logic could be updated to send an SMS only once per event.
-
 ---
-Created by [Your Name] - [Year]
+Created by Priyank Dasondi, 2024
